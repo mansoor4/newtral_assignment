@@ -21,6 +21,10 @@ Clone the project
   git clone https://github.com/mansoor4/reunion_assignment.git
 ```
 
+Go to Directory
+```bash
+  cd  reunion_assignment/
+```
 
 Start the server
 
