@@ -29,7 +29,7 @@ Go to Directory
 Start the server
 
 ```bash
-  docker-compose up --build
+  sudo docker-compose up --build
 ```
 ```It will run the container and first run test cases if test cases passed than it start the server  otherwise it will not start the server```
 
