@@ -38,14 +38,29 @@ Server Local
   http://localhost:8000
 ```
 
+Local Server Health check
+```bash
+  http://localhost:8000/health
+```
+
 Server Production
 ```bash
   https://reuinion-server.onrender.com
 ```
 
+Production Server Health check
+```bash
+  https://reuinion-server.onrender.com/health
+```
+
 
 ## Running Tests
 
+First,Install all dependencies
+
+```bash
+  npm install
+```
 To run tests, run the following command
 
 ```bash
