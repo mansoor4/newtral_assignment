@@ -10,7 +10,7 @@ const {
   unfollowUser,
   getUser,
   getAllUser,
-} = require("../controllers/user");
+} = require("../db/controllers/user");
 
 const route = Router();
 

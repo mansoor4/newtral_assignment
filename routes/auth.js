@@ -7,7 +7,7 @@ const signupValidation = require("../middlewares/auth/signupValidation");
 const validationError = require("../middlewares/index/validationError");
 
 /* Import Controllers */
-const { authenticate, register } = require("../controllers/auth");
+const { authenticate, register } = require("../db/controllers/auth");
 
 const route = Router();
 

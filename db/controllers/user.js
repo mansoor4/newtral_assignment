@@ -1,5 +1,5 @@
-const User = require("../db/models/user");
-const customError = require("../utils/customError");
+const User = require("../models/user");
+const customError = require("../../utils/customError");
 
 module.exports = {
   followUser: async (req, res, next) => {

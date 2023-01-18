@@ -1,7 +1,7 @@
-const User = require("../db/models/user");
+const User = require("../models/user");
 const crypto = require("crypto");
-const customError = require("../utils/customError");
-const generateToken = require("../utils/generateToken");
+const customError = require("../../utils/customError");
+const generateToken = require("../../utils/generateToken");
 
 module.exports = {
   register: async (req, res, next) => {

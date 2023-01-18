@@ -16,7 +16,7 @@ const {
   createComment,
   getPost,
   getAllPosts,
-} = require("../controllers/post");
+} = require("../db/controllers/post");
 
 const route = Router();
 

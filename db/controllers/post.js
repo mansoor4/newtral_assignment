@@ -1,6 +1,6 @@
-const Comment = require("../db/models/comment");
-const Post = require("../db/models/post");
-const customError = require("../utils/customError");
+const Comment = require("../models/comment");
+const Post = require("../models/post");
+const customError = require("../../utils/customError");
 
 module.exports = {
   createPost: async (req, res, next) => {
