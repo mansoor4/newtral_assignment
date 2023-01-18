@@ -53,6 +53,12 @@ Production Server Health check
   https://reuinion-server.onrender.com/health
 ```
 
+Stop the server
+
+```bash
+  sudo docker-compose down -v
+```
+
 
 ## Running Tests
 
