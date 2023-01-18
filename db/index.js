@@ -6,7 +6,7 @@ module.exports = {
     new Promise(async (resolve, reject) => {
       try {
         const { DB_URL } = config.get("DB");
-        await mongoose.connect(ARG_DB_URL ? ARG_DB_URL : DB_URL, {
+        await mongoose.connect(ARG_DB_URL ? ARG_DB_URL : `${DB_URL}/reunion`, {
           useNewUrlParser: true,
           useUnifiedTopology: true,
         });
