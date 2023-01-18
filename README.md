@@ -18,7 +18,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/mansoor4/reunion_assignment.git
+  git clone https://github.com/mansoor4/reunion_assignment.git --branch master
 ```
 
 Go to Directory
