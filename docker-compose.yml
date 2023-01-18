@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+  mongodb:
+    container_name: mongo
+    image: mongo
+    restart: always
+    ports:
+      - 27012:27017
+    volumes:
+      - dbData:/data/db
+    networks:
+      - reunion-network
+
+  api:
+    container_name: api
+    image: reunion-api-development
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - DB_URL=mongodb://mongo:27017
+    ports:
+      - 8000:8000
+    networks:
+      - reunion-network
+    depends_on:
+      - mongodb
+
+networks:
+  reunion-network:
+
+volumes:
+  dbData:

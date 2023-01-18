@@ -1,0 +1,10 @@
+{
+  "DB": {
+    "DB_URL": "DB_URL"
+  },
+
+  "SERVER": {
+    "SERVER_PORT": "PORT",
+    "SERVER_JWT_SECRET_KEY": "SERVER_JWT_SECRET_KEY"
+  }
+}
