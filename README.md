@@ -1,11 +1,6 @@
 
-# REUNION_ASSIGNMENT
+# NEWTRAL_ASSIGNMENT
 
-## Problem Statement
-
-- Build APIs for a social media platform in either NodeJS or Python
-- The API should support features like getting a user profile, follow a user, upload a post, delete a post, like a post, unlike a liked post, and comment on a post
-- Design the database schema and implement in PostgreSQL or MongoDB
 
 
 
@@ -18,12 +13,12 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/mansoor4/reunion_assignment.git --branch master
+  git clone https://github.com/mansoor4/newtral_assignment.git --branch master
 ```
 
 Go to Directory
 ```bash
-  cd  reunion_assignment/
+  cd  newtral_assignment/
 ```
 
 Start the server
@@ -41,16 +36,6 @@ Server Local
 Local Server Health check
 ```bash
   http://localhost:8000/health
-```
-
-Server Production
-```bash
-  https://reuinion-server.onrender.com
-```
-
-Production Server Health check
-```bash
-  https://reuinion-server.onrender.com/health
 ```
 
 Stop the server
